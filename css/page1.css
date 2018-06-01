@@ -1,0 +1,49 @@
+#world {
+  background: #ebe5e7;
+  position:absolute;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+#instructions{
+  position:absolute;
+  width:100%;
+  top:50%;
+  margin: auto;
+  margin-top:220px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#653f4c;
+  font-size:.9em;
+  line-height: 2em;
+  text-transform: uppercase;
+  text-align : center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+#instructions a{
+  text-decoration: none;
+  color:#653f4c;
+}
+.lightInstructions {
+  color:#993f4c;
+  font-size:.8em;
+  margin-top: 10px;
+}
+
+#credits{
+  position:absolute;
+  width:100%;
+  margin: auto;
+  bottom:0;
+  margin-bottom:20px;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  color:#b297a2;
+  font-size:0.7em;
+  text-transform: uppercase;
+  text-align : center;
+}
+#credits a {
+  color:#b297a2;
+}
